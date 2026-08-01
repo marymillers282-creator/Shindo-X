@@ -1,0 +1,10 @@
+{
+  "name": "shindo-scroll-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "python shindo_bot.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
