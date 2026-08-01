@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python311", "python311Packages.pip"]
+
+[phases.install]
+cmds = ["pip install discord.py pytz"]
+
+[start]
+cmd = "python3 shindo_bot.py"
